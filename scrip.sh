@@ -1,4 +1,5 @@
-Xephyr -br -ac -noreset -screen 1920x1080 :1 &
+# Xephyr -br -ac -noreset -screen 1600:900 :1 &
+Xephyr :1 -terminate -screen 1600x900  &
 sleep 3
-DISPLAY=:1 qtile start -c /home/reda/redalo_setup/qtile_shit/qtile01v/config.py &
+DISPLAY=:1 qtile start -c ./config.py &
 
