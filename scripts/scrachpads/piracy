@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/usr/bin/qutebrowser --target window --set zoom.default 125 https://pirate-bays.net/search?q=trek ':open -t https://1337x.to/torrent/5025539/Lana-Del-Rey-Blue-Banisters-2021-24-Bit-Hi-Res-FLAC-PMEDIA/'

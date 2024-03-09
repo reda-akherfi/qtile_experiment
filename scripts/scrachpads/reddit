@@ -1,0 +1,1 @@
+/usr/bin/qutebrowser --set zoom.default 125 --target window https://www.reddit.com/
